@@ -1,0 +1,30 @@
+{
+  "name": "cytrusbot",
+  "version": "1.0.4",
+  "description": "A multipurpose bot to cover all your needs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.6.5",
+    "express": "^4.16.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "^0.0.6",
+    "request": "^2.88.0",
+    "ytdl-core": "^0.29.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/CelestialCrafter/cytrus"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
