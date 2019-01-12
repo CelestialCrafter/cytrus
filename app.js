@@ -9,6 +9,8 @@ const express = require('express');
 const client = new Discord.Client();
 const config = require('./config');
 const app = express();
+client.commands = new Enmap();
+client.help = new Enmap();
 client.config = config;
 
 //Define command handler
@@ -20,9 +22,6 @@ fs.readdir("./events/", (err, files) => {
     client.on(eventName, event.bind(null, client));
   });
 });
-
-client.commands = new Enmap();
-client.help = new Enmap();
 
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err);
@@ -47,19 +46,3 @@ fs.readdir("./commands/", (err, files) => {
 
 //Logs into discord
 client.login(process.env.BOT_TOKEN);
-
-//Keeps the bot alive
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 280000);
-
-//HTTP routing
-app.use(express.static('public'));
-app.get('/', function(request, response) {
-  response.sendFile(__dirname + '/res.json');
-});
-
-//Starts the HTTP server
-const listener = app.listen(process.env.PORT, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
-});
