@@ -3,5 +3,8 @@
   
   
   
+# What is Cytrus?
+Cytrus is a developing multi-purpose bot built on discord.js.
+
 # Client Id
 526593597118873620
