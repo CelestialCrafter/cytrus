@@ -23,13 +23,13 @@ PREBOOT='/*JavaScript Code*/'
 
 ## Links
 ### API
-[Visit](https://cytrusbot.glitch.me/api/)
+N/A right now
 ​
 ### Invite
-[Visit](https://discordapp.com/oauth2/authorize?client_id=526593597118873620&scope=bot&permissions=8)
+N/A right now
 ​
 ### Client ID
-526593597118873620
+N/A right now
 ​
 ### Server
-[Visit](https://discord.gg/VfTE9GH)
+[Visit](https://discord.gg/BfpMgXs)
