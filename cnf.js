@@ -1,8 +1,9 @@
 const config = {
   'owners': ['395990735934980097'],
-  'managers': ['437698252381487104'],
+  'managers': ['437698252381487104', 
+'339903300994596884'],
   'admins': [],
-  'developers': ['339903300994596884'],
+  'developers': [],
   'mods': [],
   'support': [],
   'helpers': [],
